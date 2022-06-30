@@ -1,5 +1,5 @@
 # Start up Emulators
-#### The Emulators can be start You can start emulators to run until manually terminated based on the user preferences:-
+#### The Emulators can be start based on the user preferences:-
 **NOTE**:- To Run the webpage First you need to start Emulators to load the Database You  start the emulators in different mode.
 ### **Initial Start** 
 - To Start all the emulators at a time we can use the command `firebase emulators:start` 
