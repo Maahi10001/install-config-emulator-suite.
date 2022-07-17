@@ -61,11 +61,21 @@ Note:-(***Recommended***)If you don't configure these settings, the emulators wi
 
 - Installation and configuration of the Emulator Suite with containers in a typical CI setup is straightforward.
 
-- To Start the Emulators:-
+#### To Start the Emulators:-
+- The Emulators can be start according to the user preferences, .Find detailed information [here](https://github.com/scorelab/Codelabz/blob/master/local-firebase-emulators-import-export.md)
 
 ```
 firebase emulators:start
 ```
-- You can check/open Emulator suite at `localhost:4000` nby default
-- You need to run `firebase emulators:start` irst and then run `npm start` inorder to run the codelabz webpage  
+or 
+```
+npm run emulator
+```
+- You need to run `firebase emulators:start` first and then run `npm start` inorder to run the codelabz webpage.
+- You can check/open Emulator suite by visiting [localhost:4000](http://localhost:4000).
+  
+#### Import and Export:-
+- To import ```npm run emulator-import```
+- To export ```npm run emulator-export```
+- Note:- To understand beforehand about importing data from and to emulators, please see [this](https://github.com/scorelab/Codelabz/blob/master/local-firebase-emulators-import-export.md).
 
